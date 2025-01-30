@@ -10,11 +10,11 @@ app.use(cors());
 
 // Your API endpoint
 app.get('/', (req, res) => {
-    res.json({
-        email: "savicane@gmail.com",
-        current_datetime: new Date().toISOString(),
-        github_url: "https://github.com/Saviour-Dagadu/Hng12-Api.git"
-    });
+  res.json({
+    email: "your-email@example.com",
+    current_datetime: new Date().toISOString(),
+    github_url: "https://github.com/yourusername/your-repo"
+  });
 });
 
 // Start the server
